@@ -1,0 +1,7 @@
+{
+    "$schema": "http://json.schemastore.org/prettierrc",
+    "singleQuote": true,
+    "semicolon": [true, "always", "ignore-bound-class-methods"],
+    "trailingComma": "all",
+    "printWidth": 140
+}

@@ -1,0 +1,8 @@
+<app-loader></app-loader>
+<router-outlet></router-outlet>
+<footer #footer>
+    <p>v.{{ version }}</p>
+</footer>
+@if (tiempoAdvertencia && tiempoInactividad) {
+<app-idle-timeout (eventClick)="triggerFalseClick()"></app-idle-timeout>
+}
